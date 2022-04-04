@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Безопасная сделка</title>
+    <meta name="title" content="Безопасная сделка">
+    <meta name="description" content="Сервис по проверке продавца и покупателя и оценке рисков сделки недвижимости">
     <title>Document</title>
     <link rel="stylesheet" href="{{asset('/css/reset.css')}}">
     <link rel="stylesheet" href="{{asset('/css/fonts.css')}}">

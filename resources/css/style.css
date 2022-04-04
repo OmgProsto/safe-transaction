@@ -38,8 +38,10 @@ body{
     height: 37.02px;
     margin-left: 646px;
     min-width: 189px;
+    margin-top: 6px;
 }
 .rr{
+    text-align: center;
     margin-left: 13px;
 }
 .phone{

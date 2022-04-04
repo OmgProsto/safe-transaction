@@ -18,3 +18,6 @@ RUN wget -O composer-setup.php https://getcomposer.org/installer
 RUN php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 ADD www.conf /etc/php/8.0/fpm/pool.d/www.conf
+
+RUN apt -y install nodejs
+RUN apt -y install npm
