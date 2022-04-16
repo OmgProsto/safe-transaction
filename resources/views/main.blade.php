@@ -26,7 +26,7 @@
                 <div class="header__phone__items">
                     <img src="{{asset('/img/tele.svg')}}" alt="" class="logo__phone">
                     <div class="rr">
-                        <div class="phone">+7 (343) 302-00-90<br></div>
+                        <div class="phone">7 (499) 113-80-24<br></div>
                         <div class="calendar">Пн-Сб: 9:00-18:00</div>
                     </div>
                 </div>

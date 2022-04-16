@@ -15,7 +15,7 @@ class SendEmailController extends Controller
             'phone' => 'required|string'
         ]);
 
-        Mail::to('hasa-09@yandex.ru')->send(
+        Mail::to('safedeal2022@yandex.ru')->send(
             new OrderMail(
                 $request->name,
                 $request->phone

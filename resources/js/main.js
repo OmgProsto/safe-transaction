@@ -39,7 +39,7 @@ submitFooterForm = (url) => {
         inputName.value = ''
         inputPhone.value = ''
     }).catch(function(error){
-        alert("Ошибка отправки письма. Обратитесь пожалуйста в тех. поддержку mail: hasa-09@yandex.ru")
+        alert("Ошибка отправки письма. Обратитесь пожалуйста в тех. поддержку mail: safedeal2022@yandex.ru")
         console.log(error);
     });
     return false;
